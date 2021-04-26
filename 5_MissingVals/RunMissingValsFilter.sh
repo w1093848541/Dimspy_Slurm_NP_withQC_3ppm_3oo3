@@ -40,7 +40,7 @@ dimspy hdf5-pm-to-txt \
 --output pm.missingVals.$SLURM_JOB_ID \
 --delimiter tab \
 --attribute_name intensity \
---representation-samples rows
+--representation-samples columns
 
 dimspy hdf5-pm-to-txt \
 --input missingVals.$SLURM_JOB_ID \
